@@ -2,10 +2,9 @@
 package posseg
 
 import (
+	"github.com/andyzhou/jiebago/util"
 	"math"
 	"regexp"
-
-	"github.com/wangbin/jiebago/util"
 )
 
 var (

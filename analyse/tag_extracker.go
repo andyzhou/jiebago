@@ -2,11 +2,10 @@
 package analyse
 
 import (
+	"github.com/andyzhou/jiebago"
 	"sort"
 	"strings"
 	"unicode/utf8"
-
-	"github.com/wangbin/jiebago"
 )
 
 // Segment represents a word with weight.

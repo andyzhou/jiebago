@@ -1,9 +1,8 @@
 package analyse
 
 import (
+	"github.com/andyzhou/jiebago/dictionary"
 	"sync"
-
-	"github.com/wangbin/jiebago/dictionary"
 )
 
 // DefaultStopWordMap contains some stop words.

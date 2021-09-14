@@ -2,11 +2,10 @@ package tokenizers_test
 
 import (
 	"fmt"
+	_ "github.com/andyzhou/jiebago/tokenizers"
+	"github.com/blevesearch/bleve/v2"
 	"log"
 	"os"
-
-	"github.com/blevesearch/bleve"
-	_ "github.com/wangbin/jiebago/tokenizers"
 )
 
 func Example_beleveSearch() {

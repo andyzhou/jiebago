@@ -2,13 +2,12 @@
 package jiebago
 
 import (
+	"github.com/andyzhou/jiebago/dictionary"
+	"github.com/andyzhou/jiebago/finalseg"
+	"github.com/andyzhou/jiebago/util"
 	"math"
 	"regexp"
 	"strings"
-
-	"github.com/wangbin/jiebago/dictionary"
-	"github.com/wangbin/jiebago/finalseg"
-	"github.com/wangbin/jiebago/util"
 )
 
 var (

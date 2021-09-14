@@ -1,10 +1,9 @@
 package analyse
 
 import (
+	"github.com/andyzhou/jiebago/posseg"
 	"math"
 	"sort"
-
-	"github.com/wangbin/jiebago/posseg"
 )
 
 const dampingFactor = 0.85

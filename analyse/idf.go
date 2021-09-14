@@ -1,10 +1,9 @@
 package analyse
 
 import (
+	"github.com/andyzhou/jiebago/dictionary"
 	"sort"
 	"sync"
-
-	"github.com/wangbin/jiebago/dictionary"
 )
 
 // Idf represents a thread-safe dictionary for all words with their

@@ -2,12 +2,11 @@ package tokenizers
 
 import (
 	"fmt"
-	"regexp"
-	"strconv"
-
+	"github.com/andyzhou/jiebago"
 	"github.com/blevesearch/bleve/v2/analysis"
 	"github.com/blevesearch/bleve/v2/registry"
-	"github.com/wangbin/jiebago"
+	"regexp"
+	"strconv"
 )
 
 // Name is the jieba tokenizer name.

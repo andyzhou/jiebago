@@ -3,13 +3,12 @@ package jiebago_test
 import (
 	"bufio"
 	"fmt"
+	"github.com/andyzhou/jiebago"
 	"log"
 	"os"
 	"runtime"
 	"strings"
 	"time"
-
-	"github.com/wangbin/jiebago"
 )
 
 type line struct {
